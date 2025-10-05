@@ -29,7 +29,7 @@ export default function Hero() {
 
       {/* Info */}
       <div className="text-center md:text-left space-y-1 md:space-y-2 flex-1">
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight flex items-center gap-0.5 md:gap-1">
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight flex items-center gap-2">
           {NAME}
           <BadgeCheck className="text-blue-500" size={18} />
         </h1>
