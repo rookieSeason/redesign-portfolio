@@ -81,7 +81,7 @@ const PROJECTS = [
 
 export default function ProjectsPage() {
   return (
-    <section className="max-w-3xl mx-auto py-3 px-6">
+    <section className="max-w-3xl mx-auto py-3 px-2 md:px-6">
       <h1 className="text-2xl font-bold mb-1">Projects</h1>
       <p className="text-sm text-muted-foreground leading-relaxed mb-8">
         Here are some of the projects I’ve worked on that highlight my

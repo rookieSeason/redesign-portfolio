@@ -43,7 +43,7 @@ const EXPERIENCES = [
 
 export default function ExperiencePage() {
   return (
-    <section className="max-w-3xl mx-auto py-3 px-6">
+    <section className="max-w-3xl mx-auto py-3 px-2 md:px-6">
       <h1 className="text-2xl font-bold mb-1">Experience</h1>
       <p className="text-sm text-muted-foreground leading-relaxed mb-8">
         My journey started in web development, where I built and maintained
