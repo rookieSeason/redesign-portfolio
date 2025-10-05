@@ -2,37 +2,12 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import {
-  MapPin,
-  BadgeCheck,
-  Mail,
-  Linkedin,
-  Facebook,
-  Github,
-} from "lucide-react";
+import { BadgeCheck, Mail, MapPin } from "lucide-react";
 
 const NAME = "Lester John Gatpolintan";
 const LOCATION = "Bacoor, Cavite, Philippines";
 const TITLE = "Aspiring QA Engineer | Former Web Developer";
 const RESUME_LINK = "/leg-qa-resume.pdf";
-
-const socials = [
-  {
-    icon: <Linkedin size={18} />,
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/lester-john-gatpolintan-119112272/",
-  },
-  {
-    icon: <Facebook size={18} />,
-    label: "Facebook",
-    href: "https://www.facebook.com/Liquid.L",
-  },
-  {
-    icon: <Github size={18} />,
-    label: "GitHub",
-    href: "https://github.com/rookieSeason",
-  },
-];
 
 export default function Hero() {
   function handleContact() {
@@ -80,22 +55,6 @@ export default function Hero() {
               Send Email
             </Button>
           </div>
-
-          {/* Social icons */}
-          {/* <div className="flex justify-center md:justify-start gap-2 w-full sm:w-auto">
-            {socials.map((social, index) => (
-              <Button
-                key={index}
-                variant="outline"
-                size="sm"
-                onClick={() => window.open(social.href, "_blank")}
-                className="text-muted-foreground flex items-center gap-1"
-              >
-                {social.icon}
-                <span className="block md:hidden text-xs">{social.label}</span>
-              </Button>
-            ))}
-          </div> */}
         </div>
       </div>
     </section>
